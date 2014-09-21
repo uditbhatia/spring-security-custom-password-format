@@ -1,0 +1,16 @@
+<html xmlns:th="http://www.thymeleaf.org" xmlns:tiles="http://www.thymeleaf.org">
+  <head>
+    <title tiles:fragment="title">Messages : Create</title>
+  </head>
+  <body>
+    <div tiles:fragment="content">
+            <fieldset>
+                <legend>Home</legend>
+                <p th:text="${message}"></p>
+                Id : <p th:text="${user.id}"/>        
+                Username : <p th:text="${user.username}"/>        
+                
+            </fieldset>
+    </div>
+  </body>
+</html>
